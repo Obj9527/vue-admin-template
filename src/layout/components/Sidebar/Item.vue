@@ -13,6 +13,7 @@ export default {
     }
   },
   render(h, context) {
+    // debugger
     const { icon, title } = context.props
     const vnodes = []
 

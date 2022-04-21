@@ -73,6 +73,12 @@ export const constantRoutes = [
         name: 'Tree',
         component: () => import('@/views/tree/index'),
         meta: { title: 'Tree', icon: 'tree' }
+      },
+      {
+        path: 'algorithm',
+        name: 'algorithm',
+        component: () => import('@/views/algorithm/index'),
+        meta: { title: '算法', icon: 'tree' }
       }
     ]
   },

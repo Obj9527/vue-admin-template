@@ -1,5 +1,19 @@
 #app {
 
+  // tailwind与el冲突，解决样式问题
+  .el-menu-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  // tailwind与el冲突，解决样式问题
+  .el-submenu__title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
   .main-container {
     min-height: 100%;
     transition: margin-left .28s;
